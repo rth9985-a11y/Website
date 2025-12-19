@@ -42,4 +42,11 @@ nav a:hover {
     color: rgb(255, 222, 222);
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 78vh;
+    margin-left: 0.2;
+}
+
 
