@@ -1,0 +1,85 @@
+header nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
+    color: rgb(28, 28, 28);
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    background: rgb(224, 94, 94);
+    color: rgb(255, 222, 222);
+}
+
+header {
+    padding: 8px 0;
+    margin-bottom: 40px;
+    border-bottom: 3px solid black;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 0.1;
+    line-height: 0;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(231, 212, 212);
+    color: rgb(28, 28, 28);
+    line-height: 1.5;
+    padding: 0 24px;
+}
+
+
+main {
+    font-size: 3rem;
+    background: rgb(224, 94, 94);
+    color: rgb(28, 28, 28);
+
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: 100%;
+
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;      
+    height: 78vh;
+    text-align: center;     
+}
+
+main nav{
+    display: flex;
+    flex-direction: column;
+}
+
+main nav a{
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+}
+
+main nav a:hover{
+    background: rgb(62, 78, 178);
+    color: rgb(255, 222, 222);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bold-word {
+    font-weight: 900;
+    font-size: 900;
+}
+
+
